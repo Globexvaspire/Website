@@ -6,7 +6,7 @@ const AboutBanner = () => {
     return (
         <div className="w-full">
             <div className="container m-auto">
-            <div className="flex flex-col items-center justify-center w-full py-6 lg:p-20 2xl:border-l-2 2xl:border-r-2 border-black">
+            <div className="bg-color2 shadow-2xl text-black flex flex-col items-center justify-center w-full py-6 lg:p-20 2xl:border-l 2xl:border-b border-black">
                 <h1 className="text-5xl text-center md:text-6xl lg:text-8xl xl:text-10xl leading-none tracking-wide font-title font-bold">GlobexVAspire</h1>
                 <div className="py-5 md:py-16 w-[90%] md:w-[70%] lg:w-[60%] xl:w-[50%] 2xl:w-[40%] font-detail text-center font-normal text-md md:text-base lg:text-lg">
                     <p>Your journey to success starts here&ndash;build, aspire, and achieve with Globex VAspire.</p>

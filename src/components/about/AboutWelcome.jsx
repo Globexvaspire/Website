@@ -8,7 +8,7 @@ const AboutWelcome = () => {
     return (
         <div className="w-full">
             <div className="container m-auto">
-                <div className="flex flex-col-reverse md:flex-row">
+                <div className="text-black flex flex-col-reverse md:flex-row">
                     <div className="text-center w-full md:w-[60%] self-center md:bg-none py-10 2xl:py-0">
                         <h1 className="font-title text-3xl lg:text-4xl font-semibold p-4">Welcome to Globex VAspire!</h1>
                         <p className="font-detail text-md md:text-base lg:text-lg p-4">Globex VAspire was created with one clear mission: to help aspiring Virtual Assistants &#40;VAs&#41; build the skills, confidence, and knowledge they need to succeed. Alongside our agency, Globex Solutions, we&apos;ve been dedicated to bridging the gap between dreamers and doers since our launch in May 2024.</p>

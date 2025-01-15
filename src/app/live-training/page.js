@@ -3,7 +3,7 @@ import LiveTrainingForm from "@/components/live-training/FormPage";
 
 const LiveTrainingPage = () => {
     return (
-        <div className="w-full">
+        <div className="bg-white w-full">
             <div className="container m-auto">
                 <div>
                     <LiveTrainingForm/>
@@ -12,10 +12,10 @@ const LiveTrainingPage = () => {
             <div className="w-full bg-black shadow-2xl flex justify-center p-4 lg:p-8">
                 <div className="flex justify-center items-center container m-auto border-l-2 border-r-2 border-white">
                     <div className="w-fit p-6">
-                    <h1 className="text-white font-title text-4xl lg:text-6xl text-center">I AM READY TO START MY VA JOURNEY!</h1>
+                        <h1 className="text-white font-title text-4xl lg:text-6xl text-center">I AM READY TO START MY VA JOURNEY!</h1>
+                    </div>
                 </div>
             </div>
-        </div>
         </div>
     )
 }

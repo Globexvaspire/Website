@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="container m-auto relative">
       <div className="mx-auto w-full max-w-7xl px-8 pt-5">
         <div className="grid grid-cols-1 justify-between gap-4 md:grid-cols-2">
-          <Typography variant="h1" className="mb-6 font-title text-lg">
+          <Typography variant="h1" className="text-white mb-6 font-title text-lg">
             GlobeXVAspire
           </Typography>
           <div id="contact" className="grid grid-cols-3 justify-between gap-4 font-navigation">
@@ -21,7 +21,7 @@ const Footer = () => {
               <ul key={title}>
                 <Typography
                   variant="small"
-                  className="mb-3 font-medium"
+                  className="text-white mb-3 font-medium"
                 >
                   {title}
                 </Typography>
@@ -31,7 +31,7 @@ const Footer = () => {
                       as="a"
                       target="_blank"
                       href={item.link}
-                      className="py-1.5 font-normal transition-colors text-black opacity-50 hover:opacity-100"
+                      className="py-1.5 font-normal transition-colors text-white opacity-50 hover:opacity-100"
                     >
                       {item.heading}
                     </Typography>
@@ -41,15 +41,15 @@ const Footer = () => {
             ))}
           </div>
         </div>
-        <div className="mt-12 flex w-full flex-col items-center justify-center border-t border-black py-4 md:flex-row md:justify-between">
+        <div className="mt-12 flex w-full flex-col items-center justify-center border-t border-white py-4 md:flex-row md:justify-between">
           <Typography
             variant="small"
-            className="mb-4 text-center font-normal text-blue-gray-900 md:mb-0"
+            className="mb-4 text-center font-normal text-white md:mb-0"
           >
             &copy; {currentYear} <a href="https://material-tailwind.com/">GlobeXVAspire</a>. All
             Rights Reserved.
           </Typography>
-          <div className="flex gap-4 text-black sm:justify-center">
+          <div className="flex gap-4 text-white sm:justify-center">
             <Typography as="a" target="_blank" href="https://www.facebook.com/profile.php?id=61571249031373" className="opacity-50 transition-opacity hover:opacity-100">
                 <FaFacebook className="w-8 h-8"/>
             </Typography>

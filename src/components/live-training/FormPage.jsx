@@ -40,7 +40,7 @@ const LiveTrainingForm = () => {
                     <div className="w-full pb-5">
                         <Image className="w-full rounded-xl" src={liveTrainingImage} alt="Live Training Page Image" width={9999} height={9999}></Image>
                     </div>
-                    <div className="pt-5">
+                    <div className="text-black pt-5">
                             <Typography variant="h4" color="blue-gray">
                                 Fill Up
                             </Typography>

@@ -15,6 +15,9 @@ export default {
         color3: "#E6DACE",
         color4: "#D1C7BF",
         white: "#FFFFFF",
+        amber: "#FFBF00",
+        darkMatcha: "#44624a",
+        lightMatcha: "#8ba888",
       },
       backgroundImage: {
         'banner-bg': "url('../../public/images/banner-bg.png')",

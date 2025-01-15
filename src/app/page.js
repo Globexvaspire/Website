@@ -17,11 +17,11 @@ export default function Home() {
         <section id="section-2" className="w-full pt-10 2xl:pt-12 bg-gradient-to-r from-white via-color1 to-color2">
           <ItemsSection/>
         </section>
-        <section id="section-3" className="w-full bg-black">
+        <section id="section-3" className="w-full bg-gradient-to-r from-white via-color1 to-color2">
           <LastSection/>
         </section>
       </main>
-      <footer className="bg-color3">
+      <footer className="bg-lightMatcha">
         <Footer/>
       </footer>
     </div>

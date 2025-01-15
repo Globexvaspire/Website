@@ -9,7 +9,7 @@ import { IoMdHome } from "react-icons/io";
 
 const AboutHeader = () => {
     return (
-        <div className="bg-black fixed w-full z-10 text-white top-0">
+        <div className="bg-lightMatcha fixed w-full z-10 text-white top-0">
             <div className="container m-auto w-full p-4 flex text-white flex justify-between items-center">
                 <a href="/" className="w-full text-center w-fit opacity-50 transition-opacity hover:opacity-100 lg:text-2xl flex justify-center md:w-[33%]">
                     <IoMdHome className="text-3xl md:text-4xl"/>
