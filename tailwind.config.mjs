@@ -25,6 +25,8 @@ export default {
         'banner-bg1': "url('../../public/images/banner-bg1.jpg')",
         'banner-bg2': "url('../../public/images/banner-bg2.jpg')",
         'banner-bg3': "url('../../public/images/banner-bg3.jpg')",
+        'banner-bg4': "url('../../public/images/banner-bg4.jpg')",
+        'banner-bg5': "url('../../public/images/banner-bg5.jpg')",
         'about-bg' : "url('../../public/images/about-bg.jpg')",
         'about-bg3' : "url('../../public/images/about-bg3.jpg')",
       }

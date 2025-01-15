@@ -11,10 +11,13 @@ export default function Home() {
         <Header/>
       </header>
       <main>
-        <section id="section-1" className="w-full bg-banner-bg3 min-h-[100vh] bg-cover p-auto shadow-2xl pt-20">
+        <section id="section-1" className="w-full bg-banner-bg5 min-h-[100vh] bg-cover p-auto shadow-2xl pt-20">
           <Banner/>
         </section>
-        <section id="section-2" className="w-full pt-10 2xl:pt-12 bg-gradient-to-r from-white via-color1 to-color2">
+        <div className="w-full bg-gradient-to-r from-color1 via-color2 via-color3 to-color4">
+          <h1 className="w-full font-title text-4xl md:text-6xl font-semibold text-center p-6 text-black shadow-xl">Products</h1>
+        </div>
+        <section id="section-2" className="w-full bg-gradient-to-r from-white via-color1 to-color2">
           <ItemsSection/>
         </section>
         <section id="section-3" className="w-full bg-gradient-to-r from-white via-color1 to-color2">
