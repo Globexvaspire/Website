@@ -9,7 +9,7 @@ const AboutReviews = () => {
         <div className="w-full">
             <div className="container m-auto pb-10">
                 <div className="text-black flex justify-center flex-col items-center">
-                    <h1 className="text-2xl font-detail p-6 md:p-8 lg:p-10 xl:p-12 2xl:p-14">Reviews</h1>
+                    <h1 className="text-2xl detail p-6 md:p-8 lg:p-10 xl:p-12 2xl:p-14">Reviews</h1>
                     <div className="text-black w-full flex flex-wrap justify-center gap-4">
                         <div className="flex gap-6 flex-col p-6 w-[95%] md:w-[43%] xl:w-[33%] bg-white shadow-2xl rounded-lg">
                             <div className="flex text-amber"><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></div>

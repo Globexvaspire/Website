@@ -14,7 +14,7 @@ const AboutHeader = () => {
                 <a href="/" className="w-full text-center w-fit opacity-50 transition-opacity hover:opacity-100 lg:text-2xl flex justify-center md:w-[33%]">
                     <IoMdHome className="text-3xl md:text-4xl"/>
                 </a>
-                <h1 className="w-full text-center w-fit lg:text-2xl font-detail md:w-[33%]">About Us</h1>
+                <h1 className="w-full text-center w-fit lg:text-2xl detail md:w-[33%]">About Us</h1>
                     <div className="flex gap-4 text-black sm:justify-center text-white md:w-[33%]">
                     <Typography as="a" target="_blank" href="https://www.facebook.com/profile.php?id=61571249031373" className="opacity-50 transition-opacity hover:opacity-100">
                         <FaFacebook className="w-8 h-8"/>

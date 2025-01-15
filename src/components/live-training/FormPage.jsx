@@ -40,7 +40,7 @@ const LiveTrainingForm = () => {
                     <div className="w-full pb-5">
                         <Image className="w-full rounded-xl" src={liveTrainingImage} alt="Live Training Page Image" width={9999} height={9999}></Image>
                     </div>
-                    <div className="text-black pt-5">
+                    <div className="detail text-black pt-5">
                             <Typography variant="h4" color="blue-gray">
                                 Fill Up
                             </Typography>
@@ -87,7 +87,7 @@ const LiveTrainingForm = () => {
                                         <option>Tiktok</option>
                                    </select>
                                 </div>
-                                <button onClick={handleSubmit} className="py-2 w-[50%] bg-black text-center text-white border-2 border-white shadow-2xl font-navigation text-md md:text-lg transition-all hover:scale-105">Enroll Now</button>
+                                <button onClick={handleSubmit} className="py-2 w-[50%] bg-black text-center text-white border-2 border-white shadow-2xl navigation text-md md:text-lg transition-all hover:scale-105">Enroll Now</button>
                                 </div>
                             </form>
                     </div>

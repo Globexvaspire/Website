@@ -24,9 +24,9 @@ const Header = () => {
                 <div className="container m-auto flex justify-between rounded-lg h-20">
                     <a href="/" className="flex items-center justify-center text-center font-bold w-full p-2 xl:text-2xl md:py-4 md:w-[40%]">
                         <Image src={Logo} alt="GlobeXVAspire" className="rounded-full mr-4" width={60} height={60}></Image>
-                        <h1 className="font-title tracking-wider">GlobeX <span className="text-2xl xl:text-4xl">VA</span> Spire</h1>
+                        <h1 className="title tracking-wider">GlobeX <span className="text-2xl xl:text-4xl">VA</span> Spire</h1>
                     </a>
-                    <nav className="w-[60%] items-center justify-center h-full my-auto font-bold gap-10 font-navigation hidden lg:flex">
+                    <nav className="w-[60%] items-center justify-center h-full my-auto font-bold gap-10 navigation hidden lg:flex">
                         <a href="#home" className="transition-all hover:text-black">Home</a>
                         <a href="/about" className="transition-all hover:text-black">About</a>
                         <a href="#products" className="transition-all hover:text-black">Products</a>
@@ -37,7 +37,7 @@ const Header = () => {
                     </button>
                     {openNav && 
                       <nav className="flex flex-col w-full bg-black bg-opacity-70 absolute top-20">
-                        <ul className="w-full p-4 text-center font-navigation">
+                        <ul className="w-full p-4 text-center navigation">
                             <li className="p-2"><a onClick={(e) => handleHamburgerState(e, "#home")} className="transition-all hover:text-black w-full">Home</a></li>
                             <li className="p-2"><a onClick={(e) => handleHamburgerState(e, "/about")} className="transition-all hover:text-black">About</a></li>
                             <li className="p-2"><a onClick={(e) => handleHamburgerState(e, "#products")} className="transition-all hover:text-black">Products</a></li>

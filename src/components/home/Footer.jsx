@@ -13,10 +13,10 @@ const Footer = () => {
         <div className="container m-auto relative">
       <div className="mx-auto w-full max-w-7xl px-8 pt-5">
         <div className="grid grid-cols-1 justify-between gap-4 md:grid-cols-2">
-          <Typography variant="h1" className="text-white mb-6 font-title text-lg">
+          <Typography variant="h1" className="text-white mb-6 title text-lg">
             GlobeXVAspire
           </Typography>
-          <div id="contact" className="grid grid-cols-3 justify-between gap-4 font-navigation">
+          <div id="contact" className="grid grid-cols-3 justify-between gap-4 navigation">
             {LINKS.map(({ title, items }) => (
               <ul key={title}>
                 <Typography
