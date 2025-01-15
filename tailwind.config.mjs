@@ -18,9 +18,12 @@ export default {
         amber: "#FFBF00",
         darkMatcha: "#44624a",
         lightMatcha: "#8ba888",
+        neutral: "#C9C2B2",
       },
       backgroundImage: {
         'banner-bg': "url('../../public/images/banner-bg.png')",
+        'about-bg' : "url('../../public/images/about-bg.jpg')",
+        'about-bg3' : "url('../../public/images/about-bg3.jpg')",
       }
       ,
       fontFamily: {

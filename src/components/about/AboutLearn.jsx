@@ -17,7 +17,7 @@ const AboutLearn = () => {
         <div className="w-full">
             <div className="container m-auto">
                 <div className="flex justify-center items-center flex-col pb-10">
-                    <h1 className="text-black p-6 lg:p-10 title text-4xl font-semibold w-full xl:w-[60%] text-center">What will you learn from this course?</h1>
+                    <h1 className="text-black title text-4xl md:text-6xl font-semibold p-6 lg:p-10 w-full xl:w-[60%] text-center">What will you learn from this course?</h1>
                     <div className="text-black detail">
                     <Accordion open={open === 1} className="border-b border-gray opacity-70 hover:opacity-100">
                         <AccordionHeader onClick={() => handleOpen(1)} className="flex justify-center text-lg lg:text-xl xl:text-2xl">Getting Started as a Virtual Assistant</AccordionHeader>

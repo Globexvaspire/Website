@@ -7,11 +7,11 @@ import { Typography } from "@material-tailwind/react";
 
 const FormHeader = () => {
     return (
-         <div className="bg-lightMatcha w-full p-4 flex text-white flex justify-between items-center">
+         <div className="bg-neutral w-full p-4 flex text-black flex justify-between items-center">
                                             <a href="/" className="w-full text-center w-fit opacity-50 transition-opacity hover:opacity-100 lg:text-2xl flex justify-center md:w-[33%]">
                                                 <IoMdHome className="text-3xl md:text-4xl"/>
                                             </a>
-                                                <div className="flex gap-4 text-black sm:justify-center text-white md:w-[33%]">
+                                                <div className="flex gap-4 text-black sm:justify-center md:w-[33%]">
                                                 <Typography as="a" target="_blank" href="https://www.facebook.com/profile.php?id=61571249031373" className="opacity-50 transition-opacity hover:opacity-100">
                                                     <FaFacebook className="w-8 h-8"/>
                                                 </Typography>

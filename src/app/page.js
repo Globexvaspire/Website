@@ -21,7 +21,7 @@ export default function Home() {
           <LastSection/>
         </section>
       </main>
-      <footer className="bg-lightMatcha">
+      <footer className="bg-neutral">
         <Footer/>
       </footer>
     </div>
