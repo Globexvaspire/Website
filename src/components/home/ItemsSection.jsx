@@ -8,7 +8,7 @@ const ItemsSection = () => {
     return (
         <div id="products" className="container m-auto h-full flex justify-center">
             <div className="w-full">
-                <h1 className="w-full title text-4xl md:text-6xl font-semibold mb-5 text-center bg-gradient-to-r from-color1 via-color2 via-color3 to-color4 p-6 text-black shadow-xl">Products</h1>
+                <h1 className="w-full font-title text-4xl md:text-6xl font-semibold mb-5 text-center bg-gradient-to-r from-color1 via-color2 via-color3 to-color4 p-6 text-black shadow-xl">Products</h1>
                 <div className="w-full flex justify-center flex-wrap my-10 gap-5">
                     {itemImages.map(({source, alt, width, height, link}, index) => {
                         return (

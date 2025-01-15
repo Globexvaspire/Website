@@ -22,14 +22,17 @@ export default {
       },
       backgroundImage: {
         'banner-bg': "url('../../public/images/banner-bg.png')",
+        'banner-bg1': "url('../../public/images/banner-bg1.jpg')",
+        'banner-bg2': "url('../../public/images/banner-bg2.jpg')",
+        'banner-bg3': "url('../../public/images/banner-bg3.jpg')",
         'about-bg' : "url('../../public/images/about-bg.jpg')",
         'about-bg3' : "url('../../public/images/about-bg3.jpg')",
       }
       ,
       fontFamily: {
-        title: ['Playfair Display', 'serif'],
-        detail: ['Montserrat', 'serif'],
-        navigation: ['Roboto', 'serif']
+        title: ['var(--font-playfairDisplay)'],
+        detail: ['var(--font-montserrat)'],
+        navigation: ['var(--font-roboto)'],
       }
     },
     screens: {

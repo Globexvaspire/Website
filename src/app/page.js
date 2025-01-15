@@ -11,7 +11,7 @@ export default function Home() {
         <Header/>
       </header>
       <main>
-        <section id="section-1" className="w-full bg-banner-bg min-h-[100vh] bg-cover p-auto shadow-2xl pt-20">
+        <section id="section-1" className="w-full bg-banner-bg3 min-h-[100vh] bg-cover p-auto shadow-2xl pt-20">
           <Banner/>
         </section>
         <section id="section-2" className="w-full pt-10 2xl:pt-12 bg-gradient-to-r from-white via-color1 to-color2">
