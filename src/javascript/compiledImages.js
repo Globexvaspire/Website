@@ -8,6 +8,7 @@ import itemImage7 from "../../public/images/globexvaspire-item7.png"
 import itemImage8 from "../../public/images/globexvaspire-item8.png"
 import itemImage9 from "../../public/images/globexvaspire-item9.png"
 import itemImage10 from "../../public/images/globexvaspire-item10.png"
+import itemImage11 from "../../public/images/globexvaspire-item11.png"
 
 
 // Items Images for products
@@ -79,6 +80,13 @@ const itemImages = [
         width: 100,
         height: 100,
         link: ""
+    },
+    {
+        source: itemImage11,
+        alt: "Social Media Template Bundle Image",
+        width: 100,
+        height: 100,
+        link: "https://www.raket.ph/globexvaspire/products/social-media-management-template-bundle?fbclid=IwY2xjawH3CGNleHRuA2FlbQIxMAABHcelm4MXCSMw_2YhdP83NhGsEcCTneBDR6gQm1YCs9PdKJwBPuGYuZiEEg_aem_zl-T-xsjnyGBOF369TzNPws"
     },
 ]
 
