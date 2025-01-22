@@ -23,10 +23,10 @@ const itemImages = [
     },
     {
         source: itemImage1,
-        alt: "Social Media Manager's All-in-one Kit",
+        alt: "Social Media Management Template Bundle",
         width: 100,
         height: 100,
-        link: "https://www.raket.ph/globexvaspire/products/social-media-managers-all-in-one-toolkit"
+        link: "https://www.raket.ph/globexvaspire/products/social-media-management-template-bundle?fbclid=IwY2xjawH9ojlleHRuA2FlbQIxMAABHY2pDG87kpQROC62EsQ9KOEbAWmFzMOfPU9krJOS3pWQHMD8JHeZxgbR1w_aem_C4BJLBexb_lgbLn1QPLeJA"
     },
     
     {
@@ -81,13 +81,13 @@ const itemImages = [
         height: 100,
         link: ""
     },
-    {
-        source: itemImage11,
-        alt: "Social Media Template Bundle Image",
-        width: 100,
-        height: 100,
-        link: "https://www.raket.ph/globexvaspire/products/social-media-management-template-bundle?fbclid=IwY2xjawH3CGNleHRuA2FlbQIxMAABHcelm4MXCSMw_2YhdP83NhGsEcCTneBDR6gQm1YCs9PdKJwBPuGYuZiEEg_aem_zl-T-xsjnyGBOF369TzNPws"
-    },
+    // {
+    //     source: itemImage11,
+    //     alt: "The Social Media Manager's All-in-one Toolkit",
+    //     width: 100,
+    //     height: 100,
+    //     link: "https://www.raket.ph/globexvaspire/products/social-media-managers-all-in-one-toolkit"
+    // },
 ]
 
 export {itemImages}

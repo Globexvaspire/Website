@@ -4,7 +4,7 @@ import React from "react";
 
 const Banner = () => {
     return (
-        <div id="home" className="container h-[100vh] m-auto flex justify-center items-center">
+        <div id="home" className="container h-[100vh] m-auto flex justify-center items-center animate-appear">
             <div className="rounded-2xl text-black flex flex-col items-center justify-center w-full py-6 lg:p-20">
                 <h1 className="text-6xl text-center lg:text-7xl xl:text-9xl leading-none tracking-wide font-title font-medium">Your path<br/>to<br/>Virtual Assistant</h1>
                 <div className="py-5 w-[90%] lg:w-[60%] xl:w-[50%] 2xl:w-[40%] font-detail text-center font-normal text-sm md:text-base lg:text-lg">

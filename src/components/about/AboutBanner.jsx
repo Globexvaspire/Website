@@ -7,7 +7,7 @@ import aboutBannerBG from "../../../public/images/about-bg.jpg"
 const AboutBanner = () => {
     return (
         <div className="w-full">
-            <div className="container m-auto flex flex-reverse-col lg:flex-row">
+            <div className="container m-auto flex flex-reverse-col lg:flex-row animate-appear">
             <div className="text-black flex flex-col items-center justify-center w-full py-6 lg:p-20">
                 <h1 className="text-5xl text-center md:text-6xl lg:text-8xl xl:text-10xl leading-none tracking-wide font-title font-bold">GlobexVAspire</h1>
                 <div className="py-5 md:py-16 w-[90%] md:w-[70%] lg:w-[60%] xl:w-[50%] 2xl:w-[40%] font-detail text-center font-normal text-md lg:text-lg xl:text-xl">

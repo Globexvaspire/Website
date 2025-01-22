@@ -8,8 +8,10 @@ const LINKS = [
         {heading: "Content Strategy and Growth Playbook", link: "https://www.raket.ph/globexvaspire/products/content-strategy-and-growth-playbook"}, 
         {heading: "Notion Dashboard", link: "https://www.raket.ph/globexvaspire/products/notion-dashboard-templates"}, 
         {heading: "Social Media Manager's All-in-one Kit", link: "https://www.raket.ph/globexvaspire/products/social-media-managers-all-in-one-toolkit"},
-        {heading: "Tiktok Mastery Kit", link: "https://www.raket.ph/globexvaspire/products/tiktok-mastery-kit"}
-
+        {heading: "Social Media Management Template Bundle", link: "https://www.raket.ph/globexvaspire/products/social-media-management-template-bundle?fbclid=IwY2xjawH9ojlleHRuA2FlbQIxMAABHY2pDG87kpQROC62EsQ9KOEbAWmFzMOfPU9krJOS3pWQHMD8JHeZxgbR1w_aem_C4BJLBexb_lgbLn1QPLeJA"},
+        {heading: "Tiktok Mastery Kit", link: "https://www.raket.ph/globexvaspire/products/tiktok-mastery-kit"},
+        {heading: "VA Career Success Kit", link: "https://www.raket.ph/globexvaspire/products/va-career-success-kit-unlock-your-full-potential-as-a-virtual-assistant?fbclid=IwY2xjawHzSRFleHRuA2FlbQIxMAABHYwkd1Fdm5J7hpKRPal5XTtGrg0oqqRRc21R6na580_S-NqZVi1cKGtHyw_aem_Ug6wB--T2KnxxVEVZqTOBw"},
+        {heading: "Live Training", link: "/live-training"},
       ],
     },
     {

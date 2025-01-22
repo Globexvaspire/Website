@@ -31,7 +31,7 @@ const Footer = () => {
                       as="a"
                       target="_blank"
                       href={item.link}
-                      className="py-1.5 font-normal transition-colors opacity-50 hover:opacity-100"
+                      className="font-normal transition-colors opacity-50 hover:opacity-100"
                     >
                       {item.heading}
                     </Typography>

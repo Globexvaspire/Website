@@ -29,12 +29,41 @@ export default {
         'banner-bg5': "url('../../public/images/banner-bg5.jpg')",
         'about-bg' : "url('../../public/images/about-bg.jpg')",
         'about-bg3' : "url('../../public/images/about-bg3.jpg')",
-      }
-      ,
+      },
       fontFamily: {
         title: ['var(--font-playfairDisplay)'],
         detail: ['var(--font-montserrat)'],
         navigation: ['var(--font-roboto)'],
+      },
+      keyframes: {
+        appear: {
+          "0%": {
+            transform: "translateY(-96rem)",
+          },
+          "100%": {
+            transform: "translateY(0)",
+          }
+        },
+        rotate: {
+          "0%": {transform: "rotateY(0)"},
+          "100%": {transform: "rotateY(360deg)"},
+        },
+        showUp: {
+          "0%": {opacity: "0"},
+          "100%": {opacity: "1"},
+        },
+        slideVertical: {
+          "0%": {transform: "translateY(-8rem)"},
+          "10%": {transform: "translateY(0)"},
+          "80%": {transform: "translateY(0)"},
+          "100%": {transform: "translateY(8rem)"},
+        }
+      },
+      animation: {
+        'appear': "appear 2.5s ease-in-out",
+        'rotate': "rotate 4s ease-in-out",
+        'showUp': "showUp 2s ease-in-out",
+        'slideVertical': "slideVertical 6s infinite"
       }
     },
     screens: {
