@@ -53,10 +53,10 @@ export default {
           "100%": {opacity: "1"},
         },
         slideVertical: {
-          "0%": {transform: "translateY(-8rem)"},
+          "0%": {transform: "translateY(-9rem)"},
           "10%": {transform: "translateY(0)"},
           "80%": {transform: "translateY(0)"},
-          "100%": {transform: "translateY(8rem)"},
+          "100%": {transform: "translateY(9rem)"},
         }
       },
       animation: {
